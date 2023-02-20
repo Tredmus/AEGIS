@@ -18,46 +18,9 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  padding: 2.5rem;
-  background-image: url('../../public/Images/background.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  @include breakpoint-down(mobile) {
-    padding: 0;
-  }
+  overflow-x: hidden;
 }
 
-.wrapper {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  max-width: 73.125rem;
-  box-shadow: 0px 0px 20px 0px rgba(163,163,163,0.75);
-  z-index: 3;
-
-  @include breakpoint-down(mobile) {
-    flex-direction: column;
-  }
-}
-
-.pages {
-  width: 100%;
-  height: 100%;
-  color: $c-white;
-
-  @include breakpoint-down(mobile) {
-    padding-top: 4rem;
-  }
- 
-}
-
-.page {
-  @include scroll;
-  height: 100%;
-  background-color: rgba(20, 19, 19, 0.95);
-}
 
 a {
   color: inherit;

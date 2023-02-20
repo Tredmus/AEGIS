@@ -4,15 +4,13 @@
     position: relative;
     padding: 1rem 1rem;
     width: 100%;
-    min-width: 6rem;
-    max-width: 13rem;
     color: $c-white;
     cursor: pointer;
     transition: background-color $t-duration;
-    background-color: $c-grey-light-2;
+    background-color: $c-grey;
   
     &:hover {
-      background-color: $c-grey-light;
+      background-color: $c-grey;
     }
   
     &:active {
